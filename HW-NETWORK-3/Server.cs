@@ -15,7 +15,7 @@ namespace HW_NETWORK_3
         private bool isRunning;
         private int clients = 2;
         SortedDictionary<string, double> converters = new SortedDictionary<string, double>()
-        {
+        { 
             ["UAH USD"] = 0.024042,
             ["USD UAH"] = 41.5943,
             ["USD EUR"] = 0.953,
